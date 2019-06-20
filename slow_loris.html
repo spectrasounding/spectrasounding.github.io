@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Slow Loris Experimental Electronic Music">
+    <meta name="author" content="Spectra">
+    <meta name="keywords" content="Experimental Music, Ambient, Noise, Free Improv, Spectra, Slow Loris, Electronica">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Slow Loris</title>
+    <style type="text/css">    
+      html, body {
+	  background-color: black;
+      }
+
+      .call-outs-main {
+	  max-width: 100vw;
+	  max-height: 100vh;
+	  display: flex;
+	  flex-direction: column;
+      }
+
+      .call-outs-top-half {
+	  display: flex;
+	  flex-direction: column;
+	  order: 1;
+      }
+
+      .call-outs-headers {
+	  display: flex;
+	  justify-content: space-between;
+	  order: 1;
+      }
+
+      .call-outs-header-pics {
+	  margin: auto;	  
+      }
+
+      .call-outs-top-half-body {
+	  display: flex;
+	  order: 2;
+      }
+
+      .call-outs-body-pics {
+	  display: flex;
+	  align-items: flex-start;
+	  flex: 1;
+	  margin: auto;
+      }
+
+      .call-outs-bottom-half {
+	  display: flex;
+	  flex-direction: column;
+	  order: 2;
+      }	  
+
+      .call-outs-bottom-half-body {
+	  display: flex;
+	  order: 2;
+      }
+      
+      .header-imgs {
+	      width: auto;
+	      height: 20vh;
+	      object-fit: contain;
+      }
+
+      @media (min-aspect-ratio: 1/1) {
+	  .body-imgs-1 {
+	      max-width: 50vw; /* This should be 100/number of items */
+	      height: 30vh;
+	      object-fit: contain;
+	      margin: auto;
+	  }
+	  .body-imgs-2 {
+	      max-width: 33vw; /* This should be 100/number of items */
+	      height: 30vh;
+	      object-fit: contain;
+	      margin: auto;
+	  }
+      }
+
+      @media (max-aspect-ratio: 1/1) {
+	  .body-imgs-1 {
+	      max-height: 15vh; /* This should be 30/number of items */
+	      width: 90vw;
+	      object-fit: contain;
+	      margin: auto;
+	  }
+	  .body-imgs-2 {
+	      max-height: 10vw; /* This should be 30/number of items */
+	      width: 100vw;
+	      object-fit: contain;
+	      margin: auto;
+	  }
+	  .call-outs-bottom-half-body {
+	      flex-direction: column;
+	      margin: auto;
+	  }
+	  .call-outs-top-half-body {
+	      flex-direction: column;
+	      margin: auto;
+	  }
+	  .call-outs-body-pics {
+	      flex-direction: column;
+	      margin: auto;
+	  }
+      }
+      
+      </style>
+  </head>
+  <body>
+    <main>
+      <div class="call-outs-main">
+	<div class="call-outs-top-half">
+	  <div class="call-outs-headers">
+	    <div class="call-outs-header-pics">
+	      <img class="header-imgs" src="images/listen_small.png" alt="Listen" />
+	    </div>
+	  </div>
+	  <div class="call-outs-top-half-body">
+	    <div class="call-outs-body-pics">
+	      <a href="https://slowlorissounding.bandcamp.com/" target="_blank">
+		<img class="body-imgs-1" src="images/bandcamp_logo_resize_2.png" alt="Bandcamp Link" />
+	      </a>
+	    </div>
+	    <div class="call-outs-body-pics">
+	      <a href="https://www.youtube.com/channel/UC4JwybU83ih90O-XNzWzYNw" target="_blank">
+		<img class="body-imgs-1" src="images/youtube_logo_resize_2.png" alt="Youtube Link" />
+	      </a>
+	    </div>
+	  </div>
+	</div>
+	<div class="call-outs-bottom-half">
+	  <div class="call-outs-headers">
+	    <div class="call-outs-header-pics">
+	      <img class="header-imgs" src="images/follow_small.png" alt="Follow" />
+	    </div>
+	  </div>
+	  <div class="call-outs-bottom-half-body">
+	    <div class="call-outs-body-pics">
+	      <a href="https://www.facebook.com/slowlorissounding/" target="_blank">
+		<img class="body-imgs-2" src="images/facebook_logo_new_color.png" alt="Facebook Link" />
+	      </a>
+	    </div>
+	    <div class="call-outs-body-pics">
+	      <a href="https://twitter.com/slowlorissound/" target="_blank">
+		<img class="body-imgs-2" src="images/twitter_logo_new_color.png" alt="Twitter Link" />
+	      </a>
+	    </div>
+	    <div class="call-outs-body-pics">
+	      <a href="https://www.instagram.com/slowlorissounding/" target="_blank">
+		<img class="body-imgs-2" src="images/instagram_logo.png" alt="Instagram Link" />
+	      </a>
+	    </div>
+	  </div>
+	</div>
+      </div>
+    </main>
+  </body>
+</html>

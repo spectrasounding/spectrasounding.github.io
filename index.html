@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Home of the Spectra and Slow Loris Experimental Electronic Music Projects">
+    <meta name="author" content="Spectra">
+    <meta name="keywords" content="Experimental Music, Ambient, Noise, Free Improv, Spectra, Slow Loris, Electronica">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Spectra/Slow Loris</title>
+    <style type="text/css">    
+      html, body {
+	  height: 100vh;
+	  min-height: 100vh;
+	  background-color: black;
+      }
+      
+      .call-outs-container {
+	  min-height: 100vh;
+	  height:auto !important;
+	  height:100vh;
+	  overflow: hidden !important;
+	  max-width: 2800px;
+      }
+      
+      .pics {
+	  padding: 20px;
+	  box-sixing: border-box;
+	  flex-basis: 50%;
+      }
+
+      @media (min-aspect-ratio: 1/1) {
+	  .call-outs-container {
+	      display: flex;
+	      justify-content: space-between;
+	      position: absolute;
+	      top: 50%;
+	      left: 50%;
+	      margin-right: -50%;
+	      transform: translate(-50%, -50%);
+	  }
+	  img {
+	  max-width:100%;
+	  height:100%;
+	  object-fit:contain;
+	  }
+      }
+
+      @media (max-aspect-ratio: 1/1) {
+	  img {
+	      height: 45vh;
+	      width: auto;
+	      object-fit: contain;
+	  }
+	  .call-outs-container {
+	      position: absolute;
+	      top: 50%;
+	      left: 50%;
+	      margin-right: -50%;
+	      transform: translate(-50%, -50%);
+	  }
+      }
+      
+      </style>
+  </head>
+  <body>
+    <main>
+      <div class="call-outs-container">
+	
+	<div class = "pics">
+	  <a href="spectra.html">
+	    <img src="images/spectra_sml.png" alt="Spectra Image" />
+	  </a>
+	</div>
+	<div class = "pics">
+	  <a href="slow_loris.html">
+	    <img src="images/slow_loris_sml.png" alt="Slow Loris Image" />
+	  </a>
+	</div>
+	
+      </div>
+    </main>
+  </body>
+</html>
